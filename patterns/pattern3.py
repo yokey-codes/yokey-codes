@@ -6,10 +6,8 @@
 # 1234
 # 12345
 
-# class Solution:
-#     def pattern3(self, n):
 n=5
 for i in range(n):
-    for j in range(1,i+2):
+    for j in range(1,i+2):  #selects the second loop elements, which selects columns
         print(j,end=" ")
     print()
